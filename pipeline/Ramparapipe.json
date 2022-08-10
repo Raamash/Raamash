@@ -40,12 +40,26 @@
 				"inputs": [
 					{
 						"referenceName": "inputspdataset",
-						"type": "DatasetReference"
+						"type": "DatasetReference",
+						"parameters": {
+							"cp_container": {
+								"value": "@pipeline().parameters.rp_container",
+								"type": "Expression"
+							},
+							"cp_directory": {
+								"value": "@pipeline().parameters.rp_inputdir",
+								"type": "Expression"
+							},
+							"cp_file": {
+								"value": "@pipeline().parameters.rp_file",
+								"type": "Expression"
+							}
+						}
 					}
 				],
 				"outputs": [
 					{
-						"referenceName": "Json1",
+						"referenceName": "Json2",
 						"type": "DatasetReference"
 					}
 				]
