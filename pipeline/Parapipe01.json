@@ -1,6 +1,24 @@
 {
 	"name": "Parapipe01",
 	"properties": {
+		"parameters": {
+			"pipe_container": {
+				"type": "string",
+				"defaultValue": "ramaccount"
+			},
+			"pipe_directory_inp": {
+				"type": "string",
+				"defaultValue": "datacontain1"
+			},
+			"pipe_directory_out": {
+				"type": "string",
+				"defaultValue": "dataopcontain2"
+			},
+			"pipe_file_name": {
+				"type": "string",
+				"defaultValue": "SalesLTProduct"
+			}
+		},
 		"annotations": []
 	}
 }
