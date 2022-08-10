@@ -5,12 +5,20 @@
 			"referenceName": "AzureBlobStorage1",
 			"type": "LinkedServiceReference"
 		},
+		"parameters": {
+			"cp_op_directory": {
+				"type": "string"
+			}
+		},
 		"annotations": [],
 		"type": "Json",
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"container": "dataopcontain2"
+				"container": {
+					"value": "@dataset().cp_op_directory",
+					"type": "Expression"
+				}
 			}
 		},
 		"schema": {}
