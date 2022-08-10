@@ -60,7 +60,13 @@
 				"outputs": [
 					{
 						"referenceName": "Json1",
-						"type": "DatasetReference"
+						"type": "DatasetReference",
+						"parameters": {
+							"cp_op_directory": {
+								"value": "@pipeline().parameters.rp_outputdir",
+								"type": "Expression"
+							}
+						}
 					}
 				]
 			}
