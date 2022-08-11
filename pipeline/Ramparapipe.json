@@ -86,7 +86,7 @@
 			},
 			"rp_file": {
 				"type": "string",
-				"defaultValue": "SalesLTProduct"
+				"defaultValue": "SalesLTProduct.txt"
 			}
 		},
 		"annotations": []
