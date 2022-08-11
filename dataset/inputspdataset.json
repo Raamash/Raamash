@@ -9,9 +9,6 @@
 			"cp_container": {
 				"type": "string"
 			},
-			"cp_directory": {
-				"type": "string"
-			},
 			"cp_file": {
 				"type": "string"
 			}
@@ -23,10 +20,6 @@
 				"type": "AzureBlobStorageLocation",
 				"fileName": {
 					"value": "@dataset().cp_file",
-					"type": "Expression"
-				},
-				"folderPath": {
-					"value": "@dataset().cp_directory",
 					"type": "Expression"
 				},
 				"container": {
