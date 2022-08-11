@@ -48,7 +48,7 @@
 				"userProperties": [],
 				"typeProperties": {
 					"items": {
-						"value": "@activity('GetMD').output.itemName",
+						"value": "@activity('GetMD').output.childItems",
 						"type": "Expression"
 					},
 					"isSequential": true,
