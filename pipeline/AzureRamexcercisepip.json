@@ -23,8 +23,7 @@
 						"childItems",
 						"exists",
 						"itemType",
-						"itemName",
-						"childItems"
+						"itemName"
 					],
 					"storeSettings": {
 						"type": "AzureBlobFSReadSettings",
@@ -55,7 +54,7 @@
 					"isSequential": true,
 					"activities": [
 						{
-							"name": "If Condition1",
+							"name": "Ifcond",
 							"type": "IfCondition",
 							"dependsOn": [],
 							"userProperties": [],
