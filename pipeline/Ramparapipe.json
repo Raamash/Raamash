@@ -74,7 +74,7 @@
 			},
 			"rp_inputdir": {
 				"type": "string",
-				"defaultValue": "datacontain1"
+				"defaultValue": "datacontain1/"
 			},
 			"rp_outputdir": {
 				"type": "string",
