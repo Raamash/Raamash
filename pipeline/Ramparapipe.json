@@ -39,8 +39,18 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "DelimitedTextfile",
-						"type": "DatasetReference"
+						"referenceName": "inputspdataset",
+						"type": "DatasetReference",
+						"parameters": {
+							"cp_container": {
+								"value": "@pipeline().parameters.rp_inputdir",
+								"type": "Expression"
+							},
+							"cp_file": {
+								"value": "@pipeline().parameters.rp_file",
+								"type": "Expression"
+							}
+						}
 					}
 				],
 				"outputs": [
