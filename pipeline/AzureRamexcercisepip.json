@@ -118,7 +118,10 @@
 										"inputs": [
 											{
 												"referenceName": "Inpsources",
-												"type": "DatasetReference"
+												"type": "DatasetReference",
+												"parameters": {
+													"cp_file_child": "items().name"
+												}
 											}
 										],
 										"outputs": [
@@ -178,13 +181,7 @@
 										"inputs": [
 											{
 												"referenceName": "Inpsources",
-												"type": "DatasetReference",
-												"parameters": {
-													"cp_file_child": {
-														"value": "@pipeline().parameters.cp_file",
-														"type": "Expression"
-													}
-												}
+												"type": "DatasetReference"
 											}
 										],
 										"outputs": [
