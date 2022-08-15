@@ -120,7 +120,10 @@
 												"referenceName": "Inpsources",
 												"type": "DatasetReference",
 												"parameters": {
-													"cp_file_child": "items().name"
+													"cp_file_child": {
+														"value": "@pipeline().parameters.cp_file",
+														"type": "Expression"
+													}
 												}
 											}
 										],
