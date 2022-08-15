@@ -17,13 +17,7 @@
 				"typeProperties": {
 					"dataset": {
 						"referenceName": "Inpsources",
-						"type": "DatasetReference",
-						"parameters": {
-							"cp_file_child": {
-								"value": "@pipeline().parameters.cp_file",
-								"type": "Expression"
-							}
-						}
+						"type": "DatasetReference"
 					},
 					"fieldList": [
 						"childItems",
@@ -213,12 +207,6 @@
 				}
 			}
 		],
-		"parameters": {
-			"cp_file": {
-				"type": "string",
-				"defaultValue": "child_file"
-			}
-		},
 		"annotations": []
 	}
 }
