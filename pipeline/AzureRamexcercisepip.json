@@ -195,6 +195,12 @@
 				}
 			}
 		],
+		"parameters": {
+			"cp_file": {
+				"type": "string",
+				"defaultValue": "child_file"
+			}
+		},
 		"annotations": []
 	}
 }
